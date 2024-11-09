@@ -14,17 +14,17 @@
     <h1>Library Membership Application Form</h1>
     <form>
 
-        <label for="fnamethai">ชื่อ (ภาษาไทย):</label>
-        <input type="text" id="fnamethai" name="fnamethai" required pattern="^[ก-๙\s]+$" title="กรุณากรอกชื่อเป็นภาษาไทยเท่านั้น">
+        <label for="fnamethai">ชื่อ-สกุล (ภาษาไทย):</label>
+        <div class="input-group">
+            <input type="text" id="fnamethai" name="fnamethai" required pattern="^[ก-๙\s]+$" title="กรุณากรอกชื่อเป็นภาษาไทยเท่านั้น" placeholder="ชื่อ (ภาษาไทย)">
+            <input type="text" id="lnamethai" name="lnamethai" required pattern="^[ก-๙\s]+$" title="กรุณากรอกนามสกุลเป็นภาษาไทยเท่านั้น" placeholder="นามสกุล (ภาษาไทย)">
+        </div>
         
-        <label for="lnamethai">นามสกุล (ภาษาไทย):</label>
-        <input type="text" id="lnamethai" name="lnamethai" required pattern="^[ก-๙\s]+$" title="กรุณากรอกนามสกุลเป็นภาษาไทยเท่านั้น">
-        
-        <label for="fnameeng">First Name (English):</label>
-        <input type="text" id="fnameeng" name="fnameeng" required pattern="^[a-zA-Z\s]+$" title="Please enter your first name in English only">
-        
-        <label for="lnameeng">Last Name (English):</label>
-        <input type="text" id="lnameeng" name="lnameeng" required pattern="^[a-zA-Z\s]+$" title="Please enter your last name in English only">
+        <label for="fnameeng">Name (English):</label>
+        <div class="input-group">
+            <input type="text" id="fnameeng" name="fnameeng" required pattern="^[a-zA-Z\s]+$" title="Please enter your first name in English only" placeholder="First Name">
+            <input type="text" id="lnameeng" name="lnameeng" required pattern="^[a-zA-Z\s]+$" title="Please enter your last name in English only" placeholder="Last Name">
+        </div>
         
         <label for="gender">เพศ:</label>
         <select name="gender" id="gender" required>
