@@ -56,3 +56,15 @@ label {
     box-sizing: border-box;
 }
 
+.gender-id-group {
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.gender-id-group input,.gender-id-group select{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
