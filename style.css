@@ -27,14 +27,14 @@ h1 {
 }
 
 form {
-    width: 80%;
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 600px; /* กำหนดความกว้างสูงสุดของฟอร์ม */
+    margin: 0 auto; /* จัดฟอร์มให้อยู่ตรงกลางของหน้าจอ */
     padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้ฟอร์มดูเด่นขึ้น */
+    border-radius: 8px; /* มุมโค้งของฟอร์ม */
+    background-color: #fff; /* สีพื้นหลังของฟอร์ม */
 }
+
 
 label {
     display: block;
