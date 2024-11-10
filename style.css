@@ -186,3 +186,35 @@ label {
     background-color: #ffa600; 
     border-color: #ffa600;
 }
+
+.submit-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.submit-btn {
+    background-color: #ffa600; 
+    color: #fff;
+    padding: 12px 20px; 
+    font-size: 16px; 
+    font-weight: bold;
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0px 4px 8px rgba(20, 20, 20, 0.3); 
+    margin-top: 20px;
+}
+
+.submit-btn:hover {
+    background-color: #ff8800;
+    box-shadow: 0px 6px 12px rgba(20, 20, 20, 0.4); 
+    transform: scale(1.05); 
+}
+
+.submit-btn:active {
+    background-color: #ff7300; 
+    box-shadow: 0px 3px 6px rgba(20, 20, 20, 0.3); 
+    transform: scale(0.98); 
+}
