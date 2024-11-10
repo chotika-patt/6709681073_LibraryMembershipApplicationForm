@@ -59,6 +59,11 @@ label {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.input-group input:valid,.gender-id-group input:valid,.gender-id-group select:valid,.email-dob-group input:valid{
+    border: 1px solid #ff7525;
 }
 
 .gender-id-group {
@@ -73,6 +78,7 @@ label {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    transition: border-color 0.3s;
 }
 
 .email-dob-group{
@@ -87,6 +93,7 @@ label {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    transition: border-color 0.3s;
 }
 
 .category-option {
