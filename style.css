@@ -22,8 +22,8 @@ body {
 
 
 h1 {
-    font-size: 8vh;
-    color: rgb(255, 255, 255);
+    font-size: 70px;
+    color: white;
     text-align: center;
     margin: 20px 0;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
@@ -225,4 +225,3 @@ label {
     box-shadow: 0px 3px 6px rgba(20, 20, 20, 0.3); 
     transform: scale(0.98); 
 }
-
