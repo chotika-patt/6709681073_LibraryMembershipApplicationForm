@@ -140,11 +140,16 @@
 
         </div>
 
-        <label>ความต้องการรับข่าวสารจากห้องสมุดทางอีเมล:</label>
-        <input type="radio" id="subscribe-yes" name="subscribe" value="yes" required>
-        <label for="subscribe-yes">ใช่</label>
-        <input type="radio" id="subscribe-no" name="subscribe" value="no">
-        <label for="subscribe-no">ไม่ใช่</label>
+        <div class="subscription-option">
+            <label>ความต้องการรับข่าวสารจากห้องสมุดทางอีเมล</label>
+            <div class="radio-options">
+                <input type="radio" id="subscribe-yes" name="subscribe" value="yes" required>
+                <label for="subscribe-yes" class="custom-radio">ใช่</label>
+                
+                <input type="radio" id="subscribe-no" name="subscribe" value="no">
+                <label for="subscribe-no" class="custom-radio">ไม่ใช่</label>
+            </div>
+        </div>
         
         <button type="submit">Submit</button>
     </form>
