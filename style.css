@@ -49,6 +49,7 @@ label {
 }
 
 .input-group input {
+    font-family: "Kanit", serif;
     width: 48%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -63,6 +64,7 @@ label {
 }
 
 .gender-id-group input,.gender-id-group select{
+    font-family: "Kanit", serif;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -76,6 +78,7 @@ label {
 }
 
 .email-dob-group input{
+    font-family: "Kanit", serif;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
