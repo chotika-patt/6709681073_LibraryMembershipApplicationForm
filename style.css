@@ -227,6 +227,6 @@ label {
 }
 
 .required {
-    color: red; /* Make the asterisk red */
-    font-weight: bold; /* Optional: make the asterisk bold */
+    color: red; 
+    font-weight: bold; 
 }
