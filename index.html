@@ -14,13 +14,13 @@
     <h1>Library Membership Application Form</h1>
     <form>
 
-        <label for="fnamethai">ชื่อ-สกุล (ภาษาไทย):</label>
+        <label for="fnamethai">ชื่อ-สกุล (ภาษาไทย) <span class="required">*</span></label>
         <div class="input-group">
             <input type="text" id="fnamethai" name="fnamethai" required pattern="^[ก-๙\s]+$" title="กรุณากรอกชื่อเป็นภาษาไทยเท่านั้น" placeholder="ชื่อ (ภาษาไทย)">
             <input type="text" id="lnamethai" name="lnamethai" required pattern="^[ก-๙\s]+$" title="กรุณากรอกนามสกุลเป็นภาษาไทยเท่านั้น" placeholder="นามสกุล (ภาษาไทย)">
         </div>
         
-        <label for="fnameeng">Name (English):</label>
+        <label for="fnameeng">Name (English) <span class="required">*</span></label>
         <div class="input-group">
             <input type="text" id="fnameeng" name="fnameeng" required pattern="^[a-zA-Z\s]+$" title="Please enter your first name in English only" placeholder="First Name">
             <input type="text" id="lnameeng" name="lnameeng" required pattern="^[a-zA-Z\s]+$" title="Please enter your last name in English only" placeholder="Last Name">
@@ -28,7 +28,7 @@
 
         <div class="gender-id-group">
             <div>
-                <label for="gender">เพศ</label>
+                <label for="gender">เพศ <span class="required">*</span></label>
                 <select name="gender" id="gender" required>
                     <option value="male">ชาย</option>
                     <option value="female">หญิง</option>
@@ -37,12 +37,12 @@
             </div>
 
             <div>
-                <label for="studentid">รหัสนักศึกษา</label>
+                <label for="studentid">รหัสนักศึกษา <span class="required">*</span></label>
                 <input type="text" id="studentid" name="studentid" required pattern="[0-9]{10}" title="กรุณากรอกรหัสนักศึกษา 10 หลัก" placeholder="รหัสนักศึกษา">
             </div>
 
             <div>
-                <label for="faculty">คณะที่ศึกษา</label>
+                <label for="faculty">คณะที่ศึกษา <span class="required">*</span></label>
                 <input list="faculties" name="faculty" id="faculty" required size="30" title="กรุณากรอกคณะที่ศึกษา" placeholder="คณะที่ศึกษา">
                 <datalist id="faculties">
                     <option value="คณะนิติศาสตร์"></option>
@@ -70,11 +70,11 @@
 
         <div class="email-dob-group">
             <div>
-                <label for="email">ที่อยู่อีเมล:</label>
+                <label for="email">ที่อยู่อีเมล <span class="required">*</span></label>
                 <input type="email" id="email" name="email" required size="25" placeholder="somchai-wit@dome.tu.ac.th" pattern="^[a-zA-Z0-9._%+-]+@[dD][oO][mM][eE]\.[tT][uU]\.[aA][cC]\.[tT][hH]$" title="กรุณากรอกอีเมลในรูปแบบ : somchai-wit@dome.tu.ac.th">
             </div>
             <div>
-                <label for="dob">วันเดือนปีเกิด:</label>
+                <label for="dob">วันเดือนปีเกิด <span class="required">*</span></label>
                 <input type="date" id="dob" name="dob" required title="กรุณากรอกวันเดือนปีเกิด">
             </div>
         </div>        
